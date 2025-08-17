@@ -37,7 +37,7 @@ logging.basicConfig(
     datefmt="%Y-%m-%d:%H:%M:%S",
     level=logging.INFO,
     handlers=[
-        logging.FileHandler("output.log", encoding='utf-8'),
+        #logging.FileHandler("output.log", encoding='utf-8'), why?
         logging.StreamHandler()
     ]
 )
